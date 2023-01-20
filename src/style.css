@@ -42,11 +42,24 @@ button.normal{
     font-size: 30px;
     font-weight: 600;
     padding: 15px 30px;
-    color:#222;
-    background-color: rgb(236, 236, 229);
+    color:#fff;
+    background-color: transparent;
     border: none;
     outline: none;
     border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+button.white {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #222;
+    background-color: rgb(236, 236, 229);
+    border: 1px solid white;
+    outline: none;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -338,7 +351,7 @@ box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("../Assets/banner2.jpg");
+    background-image: url("../Assets/bannerimage.jpg");
     min-width: 580px;
     height: 50vh;
     background-size: cover;
@@ -346,14 +359,66 @@ box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
     padding: 30px;
 }
 
+#sm-banner #banner-box2{
+background-image:url("../Assets/bannerImage2.jpg")
+}
+
+
+
 #sm-banner h4{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 400;
-    color: aliceblue;
+    color: rgb(16, 17, 18);
 }
 
 #sm-banner h2 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 800;
-    color: aliceblue;
+    color: rgb(30, 31, 32);
+}
+
+#sm-banner .banner-box span{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(29, 31, 32);
+    padding-bottom:15px ;
+}
+
+#sm-banner .banner-box:hover button{
+     background: #088178;
+     border: 1px solid #088178;
+}
+
+.banner3{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:0 200px;
+}
+
+.banner3{
+    display: flex;
+    flex-direction: column;
+    Justify-content: center;
+    align-items: flex-start;
+    background-image: url("../Assets/banner3.jpg");
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20PX;
+}
+
+.banner3 h2{
+    font-weight: 900;
+    font-size: 35px;
+    
+}
+
+.banner3 h3 {
+    font-weight: 800;
+    font-size: 35px;
+    color:#ce544e
+
 }
